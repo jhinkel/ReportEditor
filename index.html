@@ -179,7 +179,7 @@ customButton4.addEventListener('click', function() {
     success: function (data,status, xhr)
     {
       if(xhr.status == 200) {
-        //alert("Successfully sent to database");
+        alert("Report Successfully submitted to TA");
 	quill.root.innerHTML = data;
         sendHTML();
       }
